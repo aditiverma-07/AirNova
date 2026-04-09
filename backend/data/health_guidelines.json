@@ -1,0 +1,28 @@
+{
+  "guidelines": [
+    {
+      "category": "Good",
+      "context": "Air quality satisfactory minimal risk"
+    },
+    {
+      "category": "Satisfactory",
+      "context": "Minor breathing discomfort sensitive people"
+    },
+    {
+      "category": "Moderate",
+      "context": "Breathing discomfort to sensitive groups"
+    },
+    {
+      "category": "Poor",
+      "context": "Breathing discomfort prolonged exposure"
+    },
+    {
+      "category": "Very Poor",
+      "context": "Respiratory illness risk"
+    },
+    {
+      "category": "Severe",
+      "context": "Serious health risk avoid outdoor"
+    }
+  ]
+}
