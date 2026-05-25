@@ -5,11 +5,17 @@ const { getHistory, addHistory } = require('../services/dbService');
 
 const myCache = new NodeCache({ stdTTL: 900 }); // 15 mins cache
 
+const { isIndianCity } = require('../utils/cityValidator');
+
 const getAqiForCity = async (req, res, next) => {
   try {
     const city = req.query.city;
     if (!city) {
       return res.status(400).json({ error: 'City parameter is required.' });
+    }
+
+    if (!isIndianCity(city)) {
+        return res.status(400).json({ error: 'Service is exclusively restricted to Indian cities. Foreign cities are not permitted.', city });
     }
 
     const cacheKey = city.toLowerCase();

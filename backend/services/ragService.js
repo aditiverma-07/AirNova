@@ -2,11 +2,22 @@ const { GoogleGenAI } = require('@google/genai');
 const fs = require('fs');
 const path = require('path');
 
+const getFallbackAdvisory = (category, ragContext) => {
+    return {
+        health_advisory: `[Fallback AI] ${ragContext}`,
+        risk_groups: category === 'Good' || category === 'Satisfactory' ? ['None'] : ['Children', 'Elderly', 'Asthma patients'],
+        precautions: category === 'Good' ? ['Enjoy the outdoors'] : ['Wear mask outdoors', 'Limit heavy exertion', 'Use air purifiers indoors'],
+        activity_suggestion: category === 'Good' ? 'Perfect for outdoor exercise.' : 'Unsafe for prolonged outdoor activity.'
+    };
+};
+
 const generateAdvisory = async (aqi, category) => {
     try {
         const apiKey = process.env.GEMINI_API_KEY;
         if (!apiKey || apiKey === 'your_gemini_api_key_here') {
-            throw new Error('Gemini API key is missing or invalid.');
+            console.log("[Gemini API] API Key missing, using fallback generation...");
+            const dummyContext = `General guideline for ${category}`; 
+            return getFallbackAdvisory(category, dummyContext);
         }
 
         // Get True RAG context
@@ -71,7 +82,8 @@ Based on the RAG Medical Guidelines and data, return a JSON object with this EXA
 
     } catch (error) {
         console.error('Generative AI Error:', error.message);
-        throw error;
+        console.log("Falling back to local advisory generation...");
+        return getFallbackAdvisory(category, "Service temporarily unavailable due to capacity limits. Please act according to the AQI category.");
     }
 };
 

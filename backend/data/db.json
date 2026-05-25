@@ -1,10 +1,304 @@
 {
   "history": [
     {
-      "city": "Shanghai (上海)",
-      "aqi": 112,
+      "city": "Kolkata",
+      "aqi": 161,
       "category": "Moderate",
-      "timestamp": "2026-04-09T17:29:07.053Z"
+      "timestamp": "2026-05-25T12:05:35.213Z"
+    },
+    {
+      "city": "Kolkata",
+      "aqi": 161,
+      "category": "Moderate",
+      "timestamp": "2026-05-25T12:05:33.160Z"
+    },
+    {
+      "city": "Delhi",
+      "aqi": 236,
+      "category": "Poor",
+      "timestamp": "2026-05-25T12:05:25.498Z"
+    },
+    {
+      "city": "Bengaluru",
+      "aqi": 83,
+      "category": "Satisfactory",
+      "timestamp": "2026-05-25T12:05:20.138Z"
+    },
+    {
+      "city": "Bengaluru",
+      "aqi": 83,
+      "category": "Satisfactory",
+      "timestamp": "2026-05-25T12:05:18.454Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-05-25T12:05:08.463Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-05-25T12:04:59.521Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-05-25T12:04:59.503Z"
+    },
+    {
+      "city": "Pimpri-Chinchwad",
+      "aqi": 125,
+      "category": "Moderate",
+      "timestamp": "2026-04-27T08:30:02.312Z"
+    },
+    {
+      "city": "Jodhpur",
+      "aqi": 182,
+      "category": "Moderate",
+      "timestamp": "2026-04-27T08:29:43.825Z"
+    },
+    {
+      "city": "Delhi",
+      "aqi": 236,
+      "category": "Poor",
+      "timestamp": "2026-04-27T08:28:51.196Z"
+    },
+    {
+      "city": "Bhopal",
+      "aqi": 348,
+      "category": "Very Poor",
+      "timestamp": "2026-04-27T08:28:44.676Z"
+    },
+    {
+      "city": "Ahmedabad",
+      "aqi": 321,
+      "category": "Very Poor",
+      "timestamp": "2026-04-27T08:28:34.163Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T08:28:24.263Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T08:28:24.249Z"
+    },
+    {
+      "city": "Lucknow",
+      "aqi": 189,
+      "category": "Moderate",
+      "timestamp": "2026-04-27T06:56:25.901Z"
+    },
+    {
+      "city": "Mumbai",
+      "aqi": 53,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T06:56:17.882Z"
+    },
+    {
+      "city": "Mumbai",
+      "aqi": 53,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T06:56:16.381Z"
+    },
+    {
+      "city": "Mumbai",
+      "aqi": 53,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T06:56:13.773Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T06:56:03.558Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-27T06:56:03.545Z"
+    },
+    {
+      "city": "Delhi",
+      "aqi": 236,
+      "category": "Poor",
+      "timestamp": "2026-04-24T09:11:09.804Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T09:08:00.294Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T09:08:00.283Z"
+    },
+    {
+      "city": "Lucknow",
+      "aqi": 189,
+      "category": "Moderate",
+      "timestamp": "2026-04-24T08:27:01.587Z"
+    },
+    {
+      "city": "Chennai",
+      "aqi": 144,
+      "category": "Moderate",
+      "timestamp": "2026-04-24T08:26:50.275Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T08:26:10.521Z"
+    },
+    {
+      "city": "Jaipur",
+      "aqi": 69,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T08:26:00.953Z"
+    },
+    {
+      "city": "pune",
+      "aqi": 190,
+      "category": "Moderate",
+      "timestamp": "2026-04-24T08:25:54.928Z"
+    },
+    {
+      "city": "pune",
+      "aqi": 190,
+      "category": "Moderate",
+      "timestamp": "2026-04-24T08:25:52.798Z"
+    },
+    {
+      "city": "pune",
+      "aqi": 190,
+      "category": "Moderate",
+      "timestamp": "2026-04-24T08:25:48.667Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T08:25:39.362Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-24T08:25:39.352Z"
+    },
+    {
+      "city": "Kanpur",
+      "aqi": 75,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-20T03:54:08.238Z"
+    },
+    {
+      "city": "Chennai",
+      "aqi": 144,
+      "category": "Moderate",
+      "timestamp": "2026-04-20T03:53:51.104Z"
+    },
+    {
+      "city": "Howrah",
+      "aqi": 67,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-20T03:53:12.909Z"
+    },
+    {
+      "city": "Ahmedabad",
+      "aqi": 321,
+      "category": "Very Poor",
+      "timestamp": "2026-04-20T03:52:59.636Z"
+    },
+    {
+      "city": "Delhi",
+      "aqi": 236,
+      "category": "Poor",
+      "timestamp": "2026-04-20T03:52:48.887Z"
+    },
+    {
+      "city": "Pune",
+      "aqi": 158,
+      "category": "Moderate",
+      "timestamp": "2026-04-20T03:52:33.748Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-20T03:52:14.720Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-20T03:52:14.703Z"
+    },
+    {
+      "city": "Bengaluru",
+      "aqi": 83,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:53:28.530Z"
+    },
+    {
+      "city": "Nagpur",
+      "aqi": 71,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:53:16.628Z"
+    },
+    {
+      "city": "Nagpur",
+      "aqi": 71,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:53:13.655Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:52:56.480Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:52:53.793Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:52:38.399Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 59,
+      "category": "Satisfactory",
+      "timestamp": "2026-04-19T12:52:38.390Z"
+    },
+    {
+      "city": "Shanghai (上海)",
+      "aqi": 50,
+      "category": "Good",
+      "timestamp": "2026-04-19T12:40:50.798Z"
+    },
+    {
+      "city": "Shanghai (上海)",
+      "aqi": 50,
+      "category": "Good",
+      "timestamp": "2026-04-19T12:40:22.696Z"
     }
   ]
 }
