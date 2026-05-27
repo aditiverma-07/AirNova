@@ -1,180 +1,277 @@
+<div align="center">
+
 # 🌍 AirNova
-### AI-Based Real-Time AQI Monitoring & Intelligent Health Advisory System for Indian Cities
+### AI-Based Real-Time AQI Monitoring & Intelligent Health Advisory System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend-blue?logo=react">
-  <img src="https://img.shields.io/badge/Node.js-Backend-green?logo=node.js">
-  <img src="https://img.shields.io/badge/Python-AI_Module-yellow?logo=python">
-  <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb">
-  <img src="https://img.shields.io/badge/JWT-Security-orange">
-  <img src="https://img.shields.io/badge/Status-Active-success">
+An Academic Mini Project developed to provide intelligent real-time air quality monitoring and AI-driven health recommendations for Indian cities.
 </p>
 
----
-
-## 📌 Overview
-
-AirNova is an AI-powered environmental intelligence platform designed to monitor **real-time Air Quality Index (AQI)** across Indian cities and provide **intelligent health recommendations**.
-
-Instead of displaying only pollution numbers, AirNova converts raw AQI information into:
-
-🩺 Health impacts  
-👨‍👩‍👧 Risk group identification  
-⚠ Preventive measures  
-🏃 Outdoor activity recommendations  
-
-using **Artificial Intelligence + Retrieval-Augmented Generation (RAG).**
+</div>
 
 ---
 
-## ✨ Key Features
+# 📖 Project Overview
 
-🌫 Real-Time AQI Monitoring  
+AirNova is an AI-powered web application designed to monitor real-time Air Quality Index (AQI) levels and provide intelligent health advisories based on pollution conditions. The system converts complex AQI data into simple, understandable, and actionable health insights using Artificial Intelligence and Retrieval-Augmented Generation (RAG).
 
-🤖 AI-Based Health Advisory System  
+The project focuses on increasing public awareness about air pollution and helping users understand the health impacts of different AQI levels. AirNova also provides precautionary measures, identifies vulnerable groups, and recommends whether outdoor activities are safe based on current pollution conditions.
 
-📊 AQI Classification Engine  
-
-⚠ Pollution Risk Analysis  
-
-👶 Vulnerable Group Detection  
-
-🏃 Outdoor Activity Recommendation  
-
-🔒 JWT Authentication  
-
-📈 Interactive Dashboard  
-
-☁ Cloud Deployment Ready  
+This project was developed as an academic mini project under the Department of Computer Science & Engineering at Medicaps University.
 
 ---
 
-## 🏗 System Architecture
+# 🚀 Technology Stack & Tools Used
 
-```text
-Frontend (React.js)
-        ↓
-Backend (Node.js + Express.js)
-        ↓
-AQI API Integration
-        ↓
-Database (MongoDB / PostgreSQL)
-        ↓
-Python AI Module (RAG)
-        ↓
-Health Advisory Generation
-```
-
----
-
-## 🛠 Tech Stack
-
-### 🎨 Frontend
+## 💻 Frontend Technologies
 - React.js
 - HTML5
 - CSS3
 - JavaScript
 
-### ⚙ Backend
+## ⚙️ Backend Technologies
 - Node.js
 - Express.js
 
-### 🧠 AI Layer
+## 🗄️ Database
+- MongoDB 
+
+## 🤖 AI & API Integration
 - Python
 - Retrieval-Augmented Generation (RAG)
+- AQI APIs
+- OpenWeather API
+- OpenAQ API
 
-### 🗄 Database
-- MongoDB
+## 🛠️ Development Tools & Platforms
+- VS Code
+- Git & GitHub
+- Postman
+- Render
+- Vercel
+
 ---
 
-## 📂 Project Structure
+# ✨ Features & Functionalities
+
+✅ Real-Time AQI Monitoring System  
+✅ Live AQI API Integration  
+✅ AQI Classification Module  
+✅ AI-Based Health Advisory Generation  
+✅ Identification of High-Risk Groups  
+✅ Outdoor Activity Recommendations  
+✅ Health Precaution Suggestions  
+✅ Interactive & Responsive Dashboard  
+✅ User-Friendly Interface  
+✅ Cloud Deployment Support  
+✅ Secure API Handling  
+
+---
+
+# 📊 AQI Classification Standards
+
+| AQI Range | AQI Category | Health Concern Level |
+|-----------|--------------|----------------------|
+| 0 – 50 | Good | Minimal Impact |
+| 51 – 100 | Moderate | Acceptable |
+| 101 – 200 | Poor | Unhealthy for Sensitive Groups |
+| 201 – 300 | Very Poor | Significant Health Effects |
+| 301+ | Severe | Serious Health Risk |
+
+---
+
+# ⚙️ Installation & Execution Steps
+
+## 1️⃣ Clone the Repository
 
 ```bash
-AirNova/
-│
-├── frontend/
-│   ├── src/
-│   └── public/
-│
-├── backend/
-│   ├── routes/
-│   ├── controllers/
-│   └── models/
-│
-├── ai-module/
-│
-├── database/
-│
-├── README.md
-└── package.json
+git clone https://github.com/your-github-username/airnova.git
+cd airnova
 ```
 
-## 🌫 AQI Categories
+---
 
-| AQI Range | Category | Health Impact |
-|------------|------------|---------------|
-| 0 – 50 | 🟢 Good | Minimal Risk |
-| 51 – 100 | 🟡 Moderate | Sensitive individuals caution |
-| 101 – 200 | 🟠 Poor | Mild health effects |
-| 201 – 300 | 🔴 Very Poor | Significant discomfort |
-| 301+ | 🟣 Severe | Serious health concerns |
+## 2️⃣ Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+```
 
 ---
 
-## 🎯 Project Objectives
+## 3️⃣ Install Backend Dependencies
 
-✔ Real-time pollution monitoring  
-
-✔ Intelligent AQI interpretation  
-
-✔ AI-generated health insights  
-
-✔ Preventive health awareness  
-
-✔ Outdoor safety guidance  
-
-✔ Public accessibility improvement  
+```bash
+cd backend
+npm install
+```
 
 ---
 
-## 🧪 Testing Strategy
+## 4️⃣ Configure Environment Variables
 
-- ✅ Unit Testing
-- ✅ Integration Testing
-- ✅ API Testing
-- ✅ Performance Testing
-- ✅ Security Testing
+Create a `.env` file inside the backend directory and add the following:
 
----
-
-## 🔒 Security Features
-
-🔐 JWT Authentication  
-
-🛡 API Protection  
-
-🔑 Secure Key Handling  
-
-📂 Protected Database Access  
+```env
+PORT=5000
+MONGO_URI=your_database_url
+AQI_API_KEY=your_api_key
+JWT_SECRET=your_secret_key
+```
 
 ---
 
-## 🚀 Future Enhancements
+## 5️⃣ Run Backend Server
 
-📈 AQI Prediction Models  
+```bash
+npm start
+```
 
-🔔 Pollution Alert Notifications  
+OR
 
-📊 Historical AQI Analytics  
+```bash
+nodemon server.js
+```
 
-📍 Hyperlocal AQI Insights  
+---
 
-🧠 Personalized Health Profiles  
+## 6️⃣ Run Frontend Application
 
+```bash
+npm run dev
+```
 
+OR
 
-<p align="center">
-🌍 Building cleaner cities through AI 🚀
-</p>
+```bash
+npm start
+```
 
-⭐ If you found this project valuable, consider giving it a star.
+---
+
+## 7️⃣ Open Application in Browser
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 🔄 System Workflow
+
+1. User enters city/location details  
+2. System fetches live AQI data through APIs  
+3. AQI values are analyzed and categorized  
+4. AI module generates health advisories  
+5. Dashboard displays:
+   - AQI Levels
+   - Pollution Category
+   - Health Effects
+   - Vulnerable Risk Groups
+   - Precautionary Measures
+   - Outdoor Activity Recommendations
+
+---
+
+# 📷 Project Screenshots / Output
+
+## 🏠 Home Dashboard
+
+Displays real-time AQI information with pollution indicators and interactive visualization.
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## 🤖 AI-Based Health Advisory System
+
+Generates intelligent health recommendations according to AQI levels.
+
+![AI Advisory](./screenshots/advisory.png)
+
+---
+
+## 🌤 AQI Monitoring Panel
+
+Shows AQI categories, pollutant information, and safety recommendations.
+
+![AQI Monitoring](./screenshots/aqi-panel.png)
+
+---
+
+## 📱 Responsive User Interface
+
+Responsive design for desktop and mobile devices.
+
+![Responsive UI](./screenshots/responsive-ui.png)
+
+---
+
+# 👩‍💻 Team Members
+
+| Name | Enrollment Number |
+|------|-------------------|
+| Aditi Verma | EN23CS301062 |
+| Akanksha Mishra | EN23CS301084 |
+| Aditya Bhati | EN23CS301064 |
+
+---
+
+# 🎯 Objectives of the Project
+
+- To monitor real-time AQI data for Indian cities
+- To classify pollution levels into standard AQI categories
+- To generate AI-based health advisories
+- To provide safety precautions and health recommendations
+- To improve public awareness regarding air pollution
+- To assist users in making safer outdoor activity decisions
+
+---
+
+# 🔒 Security & Reliability
+
+- Secure API Key Handling
+- Protected Backend Configuration
+- Error Handling & API Validation
+- Scalable Cloud Deployment Support
+
+---
+
+# 🌟 Future Enhancements
+
+🚀 AQI Prediction using Machine Learning Models  
+🚀 Personalized User Health Profiles  
+🚀 Notification & Alert System  
+🚀 Historical AQI Analytics  
+🚀 Multi-language Support  
+🚀 Mobile Application Development  
+
+---
+
+# 📚 References
+
+1. World Health Organization (WHO) – Air Quality Guidelines  
+2. Central Pollution Control Board (CPCB), India  
+3. OpenAQ API Documentation  
+4. AirNow API Documentation  
+5. Environmental Protection Agency (EPA) Standards  
+
+---
+
+# 👨‍🏫 Project Guidance
+
+### Guided By:
+- Prof. Garima Tukra 
+- Prof. Swati Vaidya  
+
+Department of Computer Science & Engineering  
+Medicaps University, Indore
+
+---
+
+# 📄 License
+
+This project is developed strictly for academic and educational purposes.
+
+---
