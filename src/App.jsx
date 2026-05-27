@@ -31,7 +31,7 @@ function App() {
       }
     } catch (err) {
       console.error("Error fetching AQI data", err);
-      setError('City not found or API error occurred.');
+      setError(err.message || 'Unable to fetch live AQI currently');
       setData(null);
     } finally {
       setIsSearching(false);

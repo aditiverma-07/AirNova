@@ -2,27 +2,23 @@
   "guidelines": [
     {
       "category": "Good",
-      "context": "Air quality satisfactory minimal risk"
-    },
-    {
-      "category": "Satisfactory",
-      "context": "Minor breathing discomfort sensitive people"
+      "context": "Air quality is satisfactory and poses minimal risk."
     },
     {
       "category": "Moderate",
-      "context": "Breathing discomfort to sensitive groups"
+      "context": "Air quality is acceptable; however, there may be a risk for some people, particularly those who are unusually sensitive to air pollution."
     },
     {
       "category": "Poor",
-      "context": "Breathing discomfort prolonged exposure"
+      "context": "Members of sensitive groups may experience health effects. The general public is less likely to be affected."
     },
     {
       "category": "Very Poor",
-      "context": "Respiratory illness risk"
+      "context": "Health alert: The risk of health effects is increased for everyone."
     },
     {
       "category": "Severe",
-      "context": "Serious health risk avoid outdoor"
+      "context": "Health warning of emergency conditions: Everyone is more likely to experience health effects."
     }
   ]
 }

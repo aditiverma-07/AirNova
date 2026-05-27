@@ -1,4 +1,14 @@
 require('dotenv').config();
+
+console.log(
+  process.env.OPENWEATHER_API_KEY
+    ? "API KEY LOADED"
+    : "API KEY MISSING"
+);
+
+if (!process.env.OPENWEATHER_API_KEY) {
+  throw new Error("OPENWEATHER_API_KEY missing");
+}
 const express = require('express');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');

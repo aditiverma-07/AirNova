@@ -5,7 +5,7 @@ const path = require('path');
 const getFallbackAdvisory = (category, ragContext) => {
     return {
         health_advisory: `[Fallback AI] ${ragContext}`,
-        risk_groups: category === 'Good' || category === 'Satisfactory' ? ['None'] : ['Children', 'Elderly', 'Asthma patients'],
+        risk_groups: category === 'Good' ? ['None'] : ['Children', 'Elderly', 'Asthma patients'],
         precautions: category === 'Good' ? ['Enjoy the outdoors'] : ['Wear mask outdoors', 'Limit heavy exertion', 'Use air purifiers indoors'],
         activity_suggestion: category === 'Good' ? 'Perfect for outdoor exercise.' : 'Unsafe for prolonged outdoor activity.'
     };

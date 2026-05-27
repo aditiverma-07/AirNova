@@ -5,13 +5,19 @@ export const fetchAQIData = async (cityInput) => {
         ? (cityInput.city || 'Indore') 
         : (cityInput || 'Indore');
 
-    const response = await fetch(`http://localhost:5000/api/aqi?city=${encodeURIComponent(city)}`);
+    const response = await fetch(`http://localhost:5000/api/aqi/${encodeURIComponent(city)}`);
     
-    if (!response.ok) {
-      throw new Error(`Failed to fetch AQI data: ${response.statusText}`);
+    let data;
+    try {
+      data = await response.json();
+    } catch {
+      throw new Error(`Failed to parse server response: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.error || `Failed to fetch AQI data: ${response.statusText}`);
+    }
+
     return data;
   } catch (error) {
     console.error("Error fetching AQI data from backend:", error);

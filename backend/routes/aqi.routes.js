@@ -4,6 +4,7 @@ const { getAqiForCity, getHistoryData } = require('../controllers/aqi.controller
 const router = express.Router();
 
 router.get('/history', getHistoryData);
+router.get('/:city', getAqiForCity);
 router.get('/', getAqiForCity);
 
 module.exports = router;

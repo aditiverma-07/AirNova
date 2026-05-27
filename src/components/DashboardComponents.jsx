@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ShieldAlert, Activity, HeartPulse, Leaf } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 
-export const getCategoryColor = (category) => {
+const getCategoryColor = (category) => {
   switch((category || '').toLowerCase()) {
     case 'good': return '#22c55e'; // Green
     case 'satisfactory': return '#86efac'; // Light Green
