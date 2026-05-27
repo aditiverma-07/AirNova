@@ -85,7 +85,7 @@ This project was developed as an academic mini project under the Department of C
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-github-username/airnova.git
+git clone https://github.com/aditiverma-07/airnova.git
 cd airnova
 ```
 
@@ -188,7 +188,7 @@ Displays real-time AQI information with pollution indicators and interactive vis
 
 Generates intelligent health recommendations according to AQI levels.
 
-![AI Advisory](./screenshots/advisory.png)
+![AI Advisory](./screenshots/responsive-ui.png)
 
 ---
 
@@ -204,7 +204,7 @@ Shows AQI categories, pollutant information, and safety recommendations.
 
 Responsive design for desktop and mobile devices.
 
-![Responsive UI](./screenshots/responsive-ui.png)
+![Responsive UI](./screenshots/advisory.png)
 
 ---
 
