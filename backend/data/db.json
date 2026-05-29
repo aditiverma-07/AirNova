@@ -1,6 +1,162 @@
 {
   "history": [
     {
+      "city": "Jaipur",
+      "aqi": 81,
+      "category": "Moderate",
+      "timestamp": "2026-05-28T07:00:50.542Z"
+    },
+    {
+      "city": "Jaipur",
+      "aqi": 81,
+      "category": "Moderate",
+      "timestamp": "2026-05-28T07:00:42.648Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T07:00:32.783Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:59:12.643Z"
+    },
+    {
+      "city": "Guwahati",
+      "aqi": 23,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:48:09.417Z"
+    },
+    {
+      "city": "Guwahati",
+      "aqi": 23,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:48:06.950Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:44:20.662Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:44:20.654Z"
+    },
+    {
+      "city": "Guwahati",
+      "aqi": 23,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:36:28.152Z"
+    },
+    {
+      "city": "Guwahati",
+      "aqi": 23,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:36:25.597Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:36:11.097Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:36:11.082Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:33:13.975Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:33:12.231Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 35,
+      "category": "Good",
+      "timestamp": "2026-05-28T06:32:51.881Z"
+    },
+    {
+      "city": "Delhi",
+      "aqi": 99,
+      "category": "Moderate",
+      "timestamp": "2026-05-28T05:48:46.127Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:47:58.449Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:46:37.309Z"
+    },
+    {
+      "city": "Navi Mumbai",
+      "aqi": 3,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:46:10.028Z"
+    },
+    {
+      "city": "Chennai",
+      "aqi": 84,
+      "category": "Moderate",
+      "timestamp": "2026-05-28T05:41:12.956Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:41:02.393Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:41:02.389Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:40:34.491Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:40:34.485Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:31:58.288Z"
+    },
+    {
+      "city": "Indore",
+      "aqi": 26,
+      "category": "Good",
+      "timestamp": "2026-05-28T05:31:58.281Z"
+    },
+    {
       "city": "Indore",
       "aqi": 41,
       "category": "Good",
@@ -143,72 +299,6 @@
       "aqi": 35,
       "category": "Good",
       "timestamp": "2026-05-26T17:14:48.711Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:14:48.602Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:14:48.569Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:04:19.953Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:04:19.950Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:04:19.240Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:04:19.086Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 35,
-      "category": "Good",
-      "timestamp": "2026-05-26T17:04:19.047Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 36,
-      "category": "Good",
-      "timestamp": "2026-05-26T15:46:01.800Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 36,
-      "category": "Good",
-      "timestamp": "2026-05-26T15:46:01.797Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 36,
-      "category": "Good",
-      "timestamp": "2026-05-26T15:46:01.794Z"
-    },
-    {
-      "city": "Indore",
-      "aqi": 36,
-      "category": "Good",
-      "timestamp": "2026-05-26T15:46:01.790Z"
     }
   ]
 }
